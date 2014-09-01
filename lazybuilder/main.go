@@ -46,6 +46,6 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Printf("Built image %s", imageName)
+	fmt.Println("Built image", imageName)
 
 }
