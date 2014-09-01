@@ -20,12 +20,12 @@ func main() {
 
 	flag.Parse()
 
-	if 2 != len(flag.Args()) {
+	if 1 != len(flag.Args()) {
 		flag.Usage()
 		//fmt.Printf("Usage: %s <image-name>\n", flag.Usage())
 		os.Exit(1)
 	} else {
-		imageName = os.Args[1]
+		imageName = flag.Args()[0]
 	}
 
 	client, err := docker.NewClient(host)
