@@ -20,7 +20,7 @@ func main() {
 
 	flag.Parse()
 
-	if 2 != len(os.Args) {
+	if 2 != len(flag.Args()) {
 		flag.Usage()
 		//fmt.Printf("Usage: %s <image-name>\n", flag.Usage())
 		os.Exit(1)
