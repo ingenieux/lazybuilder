@@ -10,7 +10,7 @@ If you've got a go environment, its as simple as:
 C:\> go get github.com/ingenieux/lazybuilder/lazybuilder
 ```
 
-Otherwise, fetch the binaries from [beta.gobuild.io](https://beta.gobuild.io/github.com/ingenieux/lazybuilder/lazybuilder)
+Otherwise, fetch the binaries from [beta.gobuild.io](http://beta.gobuild.io/github.com/ingenieux/lazybuilder/lazybuilder)
 
 ## How to use it
 
